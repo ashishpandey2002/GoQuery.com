@@ -1,0 +1,202 @@
+*{
+    background-color: black;
+    content: "";
+    z-index: -1;
+    opacity: 0.97;
+    /* background-color: black; */
+    font-family: 'Ubuntu', sans-serif;
+    color: white;
+
+}
+/* Navigation Bar  */
+#navbar .btn{
+    padding: 5px 9px;
+    margin: 14px 3px;
+    position: absolute;
+    right: 30px;
+    border-radius: 5px;
+}
+#navbar .fas{
+    height: 15px;
+}
+#navbar .btn:hover{
+    font-family: 'Ubuntu', sans-serif;
+    cursor: pointer;  
+    color: blueviolet;
+}
+#navbar{
+    border-radius: 5px;
+    /* background-color: rgb(22, 22, 22); */
+    color: white;
+    display: flex;
+    
+}
+#navbar ul li a{
+    text-decoration: none;
+    color: white; 
+    font-family: 'Roboto Slab', serif; 
+}  
+
+#navbar ul li a:hover{
+    /* background-color: rgb(225, 223, 233); */
+    color: rgb(118, 214, 243);  
+    border-radius: 3px; 
+}
+#navbar ul li{
+    list-style: none;
+    margin: 1px 32px;
+    padding: 1px 2px;
+    display: block;  
+     
+}
+#navbar ul {
+    display: flex;
+    flex-direction: row;  
+}
+#navbar li .select {
+    width: 6px;  
+    height: 6px;
+    color: white;
+    padding: 2px 8px;
+    margin: 2px 2px;
+    background: black;
+}
+#navbar li .select option {
+    padding: 2px 8px;
+    margin: 2px 2px;
+}
+
+/* Home section */
+#Home{
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+    color: white;
+    margin: 11px 11px;
+    padding: 2px 2px;
+    
+}
+#Home .box1{
+    border: 1px solid white;
+    height: 50%; 
+    margin: 2px 5px;
+    padding: 16px 16px;
+    /* background-color: rgb(22 22 24);  */
+    border-radius: 5px;  
+    /* overflow: scroll; */
+}
+#Home .box2{
+    border: 1px solid white;
+    height: 100%;
+    margin: 2px 5px;
+    padding: 16px 16px;
+    /* background-color: rgb(22 22 24); */
+    border-radius: 5px; 
+    
+}
+#Home .box3{
+    border: 1px solid white;
+    height: 500px;
+    padding: 42px 5px;
+    margin: 110px 5px;
+    /* background-color: rgb(22 22 24); */
+    border-radius: 5px;         
+    
+}
+#Home .heading{
+    text-align: center;
+}
+#Home .primary img{
+    height: 58px;
+    width: 70px;
+    padding: 5px 9px;
+    margin: 12px 9px;
+    /* border: 2px solid rgb(12, 1, 20); */
+}
+#Home .primary{
+    background: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQRl-QCaC3XUJapQQAT5DQ_xsojsdZpiNadwQ&usqp=CAU');
+    display: flex;
+    flex-direction: row;
+    
+}
+#Home .secondary{
+    text-decoration: none;
+}
+#Home .secondary{
+    padding: 6px 11px;
+    margin: 30px 23px;
+    border: 1px solid white;
+    cursor: pointer;
+    border-radius: 3px;
+    /* background-color: rgb(7 2 42); */
+}
+#Home .secondary:hover{
+    /* background-color: rgb(3, 3, 68); */
+    color: rgb(222, 135, 193);
+}
+
+#Home .box3 label{
+    padding: 5px 12px;
+    margin: 6px 54px;
+    text-align: center;
+}
+#Home .box3 #myText{
+    background: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQRl-QCaC3XUJapQQAT5DQ_xsojsdZpiNadwQ&usqp=CAU');
+    padding: 17px 19px;
+    margin: 16px 16px;
+    color: white;
+    /* font-size: 11px; */
+    border-radius: 10px;
+}
+#Home .box3 .btn{
+    padding: 5px 12px;
+    margin: 6px 5px;
+    border: 2px solid white;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    /* background-color: #d6adcd; */
+}
+#Home .box3 .btn:hover{
+    /* background-color: rgb(233, 197, 233); */
+    color: rgb(42, 240, 16);
+
+}
+#Home .ternary{
+    background: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQRl-QCaC3XUJapQQAT5DQ_xsojsdZpiNadwQ&usqp=CAU');
+    border: 1px solid white;
+    border-radius: 3px;
+    padding: 18px 18px;
+    margin: 18px 2px;
+}
+#Home .ternary img{
+    padding: 1px 2px;
+    margin: 6px 2px;
+    height: 26px;
+    width: 30px;
+}
+#Home .ternary h4{
+    display: inline;
+    padding: 2px 7px;
+    margin: 4px 2px;
+}
+#Home .ternary h4:hover{
+    cursor: pointer;
+}
+
+#Home .btn{
+    color: white;
+    padding: 2px 6px;
+    margin: 2px 4px;
+    
+}
+#Home .btn :hover{
+    /* color: rgb(252, 8, 8); */
+    cursor: pointer;
+}
+
+#Home .btn .far{
+    color: white;
+}
+#Home .block{
+    display: block;
+}

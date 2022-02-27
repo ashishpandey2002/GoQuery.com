@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Go Query - Create Your Account | GoQuery.com</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap" rel="stylesheet">
+
+
+    <style>
+        * {
+            background: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS3Q9yJqyVbps3wxBRWJeNcxsRsks9GJMoLCA&usqp=CAU') no-repeat center center/cover;
+            color: white;
+            font-family: 'Bree Serif', serif;
+
+        }
+
+        .container {
+            /* background-color: rgb(4 4 22); */
+            border: 2px solid white;
+            margin: 69px 184px;
+            padding: 17px 13px;
+            width: 70%;
+            border-radius: 10px;
+
+        }
+
+        .container img {
+            height: 53px;
+            width: 68px;
+            position: absolute;
+            left: 1044px;
+            top: 24%;
+            padding: 2px 2px;
+            margin: 2px 2px;
+        }
+
+        .container .btn2 {
+            position: absolute;
+            left: 1019px;
+            top: 33%;
+            margin: 5px 5px;
+            padding: 3px 5px;
+            border-radius: 3px;
+        }
+
+        .container .btn2:hover {
+            cursor: pointer;
+            /* background-color: rgb(206, 18, 43); */
+            color: rgb(93, 182, 241);
+        }
+
+        .container form {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            /* background-color: rgb(4 4 22); */
+        }
+
+        h1 {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            /* background-color: rgb(4 4 22); */
+        }
+
+        /* p {
+             background-color: rgb(4 4 22); 
+        } */
+
+        .container label {
+            /* background-color: rgb(4 4 22); */
+            padding: 5px 8px;
+            margin: 5px 96px;
+
+        }
+
+        .container input {
+            /* background-color: rgb(4 4 22); */
+            padding: 4px 41px;
+            margin: 7px 104px;
+
+        }
+
+        .btn {
+            margin: 5px 5px;
+            padding: 3px 5px;
+            border-radius: 3px;
+        }
+
+        .btn:hover {
+            cursor: pointer;
+            /* background-color: rgb(206, 18, 43); */
+            color: rgb(93, 182, 241);
+        }
+
+        @media only screen and (max-width:1420px) {
+            h1 {
+                font-size: 1.5rem;
+
+            }
+
+            .container {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-direction: column;
+            }
+
+            .formgroup {
+                font-size: 1rem;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-direction: column;
+                margin: 2px -92px;
+            }
+
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Create Your Account</h1>
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT0hZr1a0JSLuHdZcWHpZylX4wotjC-AlgAIA&usqp=CAU"
+            alt="cant upload bitmoji">
+        <button class="btn2">Add profile photo</button>
+        <form action="noaction.php">
+            <div class="formgroup">
+                <div>
+                    <label for="name">Name</label><br>
+                    <input type="text" name="myName" id="name" placeholder="Enter your Name" required>
+                </div>
+                <div>
+                    <label for="email-id">Email Id</label><br>
+                    <input type="email" name="myEmailId" id="email-id" placeholder="abc@gmail.com" required>
+                </div>
+                <div>
+                    <label for="student-id">Student-Id</label><br>
+                    <input type="text" name="MyStudent-Id" id="student-id" placeholder="Enter your Student-Id" required>
+                </div>
+                <div>
+                    <label for="mobile-no.">Mobile-No.</label><br>
+                    <input type="text" name="MyMobileNo." id="mobile-no" placeholder="Enter your mobile no." required>
+                </div>
+                <div>
+                    <label for="password">Create Password</label><br>
+                    <input type="password" name="MyPassword" id="password" placeholder="Create a new password" required>
+                </div>
+                <div>
+                    <label for="re-password">Re-Enter Password</label><br>
+                    <input type="password" name="MyRe-Password" id="re-password" placeholder="Confirm your password"
+                        required>
+                </div>
+            </div>
+            <p class="para">Recieve Our Weekly Newsletter and other occasional updates</p>
+            <button class="btn">Create account</button>
+        </form>
+
+    </div>
+
+</body>
+
+</html>
